@@ -30,7 +30,7 @@ if c3.button(">") and st.session_state.slide_number<N-1:
 slide = c2.text_input("\b", value=f"{st.session_state.slide_number}")
 st.session_state.slide_number = int(slide)
 if st.session_state.slide_number>=1:
-    st.markdown("Pycon Chile: **WebApps con Streamlit : ¡más fácil que la tabla del uno, poh!**")
+    st.markdown("Pycon Chile: ****")
 if st.session_state.slide_number>=2:
     st.markdown(f"Sebastián Flores, @sebastiandres ![]({repo_path}/github.png) ![]({repo_path}/twitter.png) ![]({repo_path}/linkedin.png) [sebastiandres.xyz](sebastiandres.xyz), Nov 2021.")
 if st.session_state.slide_number==10:
